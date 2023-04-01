@@ -174,7 +174,7 @@ void setup() {
   {
   wifi::WiFiAP wifi_wifiap = wifi::WiFiAP();
   wifi_wifiap.set_ssid("Lab-Module Fallback Hotspot");
-  wifi_wifiap.set_password("KK0jK0sqdVyP");
+  wifi_wifiap.set_password("YourPassword");
   wifi_wificomponent->set_ap(wifi_wifiap);
   }
   wifi_wificomponent->set_ap_timeout(60000);
